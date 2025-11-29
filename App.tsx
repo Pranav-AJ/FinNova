@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 
 // Context Providers
 import { AuthProvider, useAuth } from './context/AuthContext';
-import { ChatProvider } from './context/chatContext';
+import { ChatProvider } from './context/ChatContext';
 import { StockProvider } from './context/StockContext';
 
 // Components

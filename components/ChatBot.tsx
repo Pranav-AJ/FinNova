@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useChat } from '../context/chatContext.tsx'; // Use the hook!
+import { useChat } from '../context/ChatContext.tsx'; // Use the hook!
 import { Send, Bot, User, Loader2 } from 'lucide-react';
 
 const ChatBot: React.FC = () => {
