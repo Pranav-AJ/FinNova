@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FinNova 🚀
 
-# Run and deploy your AI Studio app
+**FinNova** is a modern financial application powered by Generative AI. Built with **React**, **TypeScript**, and **Vite**, it leverages Google's **Gemini API** to provide intelligent financial insights and data interaction.
 
-This contains everything you need to run your app locally.
+>
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## ✨ Features
 
-## Run Locally
+- **AI Integration:** Utilizes the Google Gemini API for generating intelligent responses and financial analysis.
+- **Modern Frontend:** Built with React 18+ and TypeScript for type-safe, component-based UI development.
+- **Fast Build Tooling:** Powered by Vite for lightning-fast HMR (Hot Module Replacement) and optimized builds.
+- **State Management:** Includes a dedicated `context/` folder for managing global application state.
+- **Modular Architecture:** Organized into `components/` and `services/` for scalable development.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Framework:** [React](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **AI Service:** [Google Gemini API](https://ai.google.dev/)
+- **Package Manager:** npm
